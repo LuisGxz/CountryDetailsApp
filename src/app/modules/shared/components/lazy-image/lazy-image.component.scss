@@ -1,0 +1,13 @@
+.loader {
+  background-color: rgb(73, 76, 79);
+  border-radius: 50%;
+  color: black;
+  width: 100%;
+}
+.marco {
+  padding: 0.25rem;
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  max-width: 100%;
+}

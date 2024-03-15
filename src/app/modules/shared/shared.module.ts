@@ -6,6 +6,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { RouterModule } from '@angular/router';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
+import { LoadingSpinerComponent } from './components/loading-spiner/loading-spiner.component';
+import { LazyImageComponent } from './components/lazy-image/lazy-image.component';
 
 
 
@@ -15,7 +17,9 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
     AboutPageComponent,
     SidebarComponent,
     ContactPageComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    LoadingSpinerComponent,
+    LazyImageComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +30,9 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
     AboutPageComponent,
     SidebarComponent,
     ContactPageComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    LoadingSpinerComponent,
+    LazyImageComponent
   ]
 })
 export class SharedModule { }

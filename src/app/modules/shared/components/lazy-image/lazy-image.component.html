@@ -1,0 +1,7 @@
+<div class="d-flex justify-content-center lazy-container align-items-center">
+    <img  [src]="url" [alt]="title" class="marco animate__animated animate__fadeIn" (load)="onLoad()" [ngStyle]="{display: hasLoaded ? '': 'none'}" [height]="height" [width]="width">
+    <img src="assets/loader.svg" class="mt-3 loader" *ngIf="!hasLoaded && !noImage">
+    <div *ngIf="noImage" class="alert alert-info text-center">
+        The Country does not have a Coat of arms...
+    </div>
+</div>
